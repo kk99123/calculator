@@ -6,7 +6,7 @@ window.$ = window.jQuery = require('jquery'); // add jQuery
 const debug = false; // set to true to show console log with pressed keys and actions
 
 // Define all major calculator parts
-const calculator = $('#calculator');
+const calculator = $('#calculator'); // testing the application
 const display = $('#calculator .display');
 const keys = $('button');
 const clearButton = $('button[data-action=clear]');
