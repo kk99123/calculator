@@ -7,7 +7,8 @@ const debug = false; // set to true to show console log with pressed keys and ac
 
 // Define all major calculator parts
 const calculator = $('#calculator'); // testing the application
-const display = $('#calculator .display');
+const display = $('#calculator .display'); // testing 
+// testing the application
 const keys = $('button');
 const clearButton = $('button[data-action=clear]');
 const history = $('#history');
